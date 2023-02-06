@@ -121,7 +121,9 @@ img {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
@@ -155,7 +157,31 @@ h2::after {
 }
 
 h3 {
+    font-size: var(--font-size-medium);
+    margin-bottom: var(--gutter-small);
+}
+h4::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 10rem;
+    background: var(--pink);
+    margin: var(--gutter-small) 0;
+}
+h4 {
     font-size: var(--font-size-medium-1);
+    margin-bottom: var(--gutter-small);
+}
+h5::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 10rem;
+    background: var(--pink);
+    margin: var(--gutter-small) 0;
+}
+h5 {
+    font-size: var(--font-size-medium);
     margin-bottom: var(--gutter-small);
 }
 
@@ -169,6 +195,9 @@ h3 {
     }
 
     h3 {
+        font-size: var(--font-size-medium);
+    }
+	h5 {
         font-size: var(--font-size-medium);
     }
 }
@@ -461,6 +490,8 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+
+
 .work__links {
     display: flex;
     align-items: center;
@@ -468,6 +499,10 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__text {
     flex: 0 0 30%;
+}
+
+.work__text2 {
+    flex: 0 0 100%;
 }
 
 .work__list {
@@ -616,7 +651,7 @@ body:not(.user-is-tabbing) a:focus {
 .mySlides {display: none}
 
 .slideshowWrapper{
-    color: #252525;
+    color: #e5e5e6da;
     margin-left: 15%;
     display: flex;
     justify-content: center;

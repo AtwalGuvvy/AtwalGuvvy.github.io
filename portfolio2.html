@@ -20,10 +20,10 @@
         <ul class="nav__items">
           <li class="nav__item"><a href="index.html" class="nav__link">Back to Home Page</a></li>
 		  <li class="nav__item">
-            <a href="#work" class="nav__link">Ammo Crisis</a>
+            <a href="portfolio.html" class="nav__link">1st Year Academic Game Projects</a>
           </li>
           <li class="nav__item">
-            <a href="#work" class="nav__link">Bounty</a>
+            <a href="portfolio3.html" class="nav__link">2nd Year Academic Game Projects</a>
           </li>
         </ul>
       </nav>
@@ -34,17 +34,22 @@
   <main role="main">
 
     <!-- ***** Work ***** -->
+	
+	<section class="work" id="work3">
+      <div class="row">
+		<h2>1st Year Academic Design Documents</h2>
+		</div>
+	</section>
 
     <section class="work" id="work">
       <div class="row">
-        <h2>Portfolio</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Ammo Crisis</h3>
+              <h4>Ammo Crisis</h4>
               <p class="p1">
                 Ammo Crisis is a third person survival shooter prototype, I designed during my first year at university. Using a university provided Unreal Engine 4 framework, I was responsible for making a game design document which:</p>
               <br>
@@ -80,17 +85,21 @@
               <div class="slideshowContainer">
   
                   <div class="mySlides fade">
-                      <img src="./images/ammo crisis GDD example 1.png" width="900vw" height="500vh">
+                      <img src="./images/Ammo Crisis example images.png" width="900vw" height="500vh">
                   </div>
 				  <div class="mySlides fade">
-                      <img src="./images/ammo crisis GDD example 2.png" width="900vw" height="500vh">
+                      <img src="./images/ammo crisis GDD example 1.png" width="900vw" height="500vh">
                   </div>				  
+				  <div class="mySlides fade">
+                      <img src="./images/ammo crisis GDD example 2.png" width="900vw" height="500vh">
+                  </div>
 				  <div class="mySlides fade">
                       <img src="./images/ammo crisis GDD example 3.png" width="900vw" height="500vh">
                   </div>
 				  <div class="mySlides fade">
                       <img src="./images/ammo crisis GDD example 4.png" width="900vw" height="500vh">
                   </div>
+				  
 				  <div class="mySlides fade">
                       <img src="./images/ammo crisis GDD example 5.png" width="900vw" height="500vh">
                   </div>
@@ -107,12 +116,17 @@
               </div>
           </div>
           </div>
+        </div>
+      </div>
+    </section>
 
-          <br><br><br><br>
-
+    <section class="work" id="work2">
+      <div class="row">
+        <div class="work__boxes">
+		
           <div class="work__box">
             <div class="work__text">
-              <h3>Bounty</h3>
+              <h4>Bounty</h4>
               <p class="p1">
                 Bounty is a 2D action-adventure side scroller, I conceptualised and designed during my first year at university. To achieve this, I created a High Concept Game Design Document. Which focuses on high concept analysis for Bounty's fundamental gameplay requirements and features. This included performing:</p>
               <br>
@@ -129,13 +143,43 @@
 			  <p>
 			  14/01/22
 			  </p>
-        <br><br>
+			<br><br>
               <div class="work__links">
                 <a href="PDF/BountyGDD.pdf" target="_blank" class="link__text">
                   Game Design Document <span>&rarr;</span>
                 </a>
               </div>
             </div>
+			<div class="slideshowWrapper">
+              <div class="slideshowContainer">
+  
+                  <div class="Slides2 fade">
+                      <img src="./images/Bounty example images.png" style="width:100%">
+                  </div>
+				  
+				  <div class="Slides2 fade">
+                      <img src="./images/Bounty- Example 1.png" style="width:100%">
+                  </div>
+				  
+				  <div class="Slides2 fade">
+                      <img src="./images/Bounty- Example 2.png" style="width:100%">
+                  </div>
+				  
+				  <div class="Slides2 fade">
+                      <img src="./images/Bounty- Example 3.png" style="width:100%">
+                  </div>
+  
+                  
+                  <a class="prev" onclick="plusSlides2(-1)">❮</a>
+                  <a class="next" onclick="plusSlides2(1)">❯</a>
+                  
+                  </div>
+                  <br>
+                  <br> <br>
+                  <div style="text-align:center">
+                  </div>
+              </div>
+          </div>
           </div>
         </div>
       </div>
@@ -167,7 +211,7 @@
         </li>
       </ul>
       <p>
-         &copy; Website template adapted by Guvvy Atwal, <a href="www.thomasstevens.xyz">Thomas Stevens</a> and <a href="www.danielhartgrove.xyz">Daniel Hartgrove</a>.
+         &copy; Website template adapted by Guvvy Atwal, <a href="https://www.thomasstevens.xyz">Thomas Stevens</a>
       </p>
       
     </div>
@@ -204,6 +248,35 @@
                 }
             slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " active";
+    }
+</script>
+
+<script>
+    let slideIndex2 = 1;
+    showSlides2(slideIndex2);
+
+    function plusSlides2(n) {
+        showSlides2(slideIndex2 += n);
+    }
+
+    function currentSlide2(n) {
+        showSlides2(slideIndex2 = n);
+    }
+
+    function showSlides2(n) {
+        let i;
+        let slides = document.getElementsByClassName("Slides2");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex2 = 1}    
+            if (n < 1) {slideIndex2 = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+            slides[slideIndex2-1].style.display = "block";  
+        dots[slideIndex2-1].className += " active";
     }
 </script>
 </body>

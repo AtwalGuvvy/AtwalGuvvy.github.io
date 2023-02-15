@@ -331,6 +331,7 @@ body:not(.user-is-tabbing) a:focus {
     font-family: sans-serif;
 }
 
+
 /* ----- Back to Top ----- */
 
 .back-to-top {
@@ -660,6 +661,16 @@ body:not(.user-is-tabbing) a:focus {
     width: 50vw;
 }
 
+.slideshowWrapper2{
+    color: #e5e5e6da;
+    margin-left: 7.5%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 50vw;
+}
+
 .slideshowContainer {
     max-width: 90%;
     width: 90%;
@@ -669,7 +680,7 @@ body:not(.user-is-tabbing) a:focus {
   }
   
   /* Next & previous buttons */
-  .prev, .next {
+  .prev, .next, .next2 {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -686,7 +697,12 @@ body:not(.user-is-tabbing) a:focus {
   
   /* Position the "next button" to the right */
   .next {
-    right: 0;
+    right: 0px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .next2 {
+    right: 275px;
     border-radius: 5px 0 0 5px;
   }
   

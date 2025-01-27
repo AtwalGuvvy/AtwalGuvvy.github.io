@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="index.html" class="nav__link">Back to Home Page</a></li>
+          <li class="nav__item">
+            <a href="Incognito.html" class="nav__link">Incognito</a>
+          </li>
+		      <li class="nav__item">
+            <a href="Tower.html" class="nav__link">Tower</a>
+          </li>
+          <li class="nav__item">
+            <a href="Inspection.html" class="nav__link">Inspection</a>
+          </li>
+          <li class="nav__item">
+            <a href="Nautical.html" class="nav__link">Nautical Nonsense</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <main role="main">
+	<section class="work" id="work2">
+      <div class="row">
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h4>Labyrinth</h4>
+			  
+			  <h5>Project date: October 2021-January 2022</h5>
+              <p>
+              Labyrinth is a top-down platformer, I designed and developed in a 1st year module-Introduction to 3D Engines. Using a university provided Unreal Engine 4 framework, I was able to design a level which exercised various examples of Blueprint Scripting. Responsibilities included:</p>
+              <br>
+              <p>
+              - Researching Blueprint to create advanced systems like portals and burst turrets.  
+              </p>
+			  <br>
+              <p>
+              - Analyse testing results, to evaluate methods to improve game balance. For example adjusting the values of platform speed or placement of switch actors. </p>
+			  <br>
+			  <br>
+
+			
+
+            </div>
+            <div class="slideshowWrapper">
+              <div class="slideshowContainer">
+				  
+				  <div class="Slides2 fade">
+                      <img src="./images/labyrinth example images.png" style="width:100%">
+                  </div>
+				  
+				  <div class="Slides2 fade">
+                      <img src="./images/Labyrinth image 1.png" style="width:100%">
+                  </div>
+				  
+				  <div class="Slides2 fade">
+                      <img src="./images/Labyrinth image 2.png" style="width:100%">
+                  </div>
+				  
+				  <div class="Slides2 fade">
+                      <img src="./images/Labyrinth image 3.png" style="width:100%">
+                  </div>
+  
+                  
+                  <a class="prev" onclick="plusSlides2(-1)">❮</a>
+                  <a class="next" onclick="plusSlides2(1)">❯</a>
+                  
+                  </div>
+                  <br>
+                  <br> <br>
+                  <div style="text-align:center">
+				  <br>
+				  <a href="https://www.youtube.com/watch?v=5YkaU-cd__8" target="_blank" class="link__text">
+					Gameplay Trailer <span>&rarr;</span>
+				  </a>
+                  </div>
+              </div>
+          </div>
+          </div>
+		  
+		<div class="work__box">
+		  <div class="work__text2">
+			<h5>Reflection</h5>
+        <p>With my current knowledge of game development, there are some changes I would apply to this project such as: </p>
+			  <p>
+			  <br>
+			  - Add more visual flare. During development, my focus was ensuring all mechanics were functioning and fun to interact with. After submission I recognise the look of Labyrinth does not quite synergise with the quality fun feel the game mechanics provide. Therefore, to alleviate this design issue, I would increase the environmental detail. By adding in non-interactable assets that fill the space and match the setting like pipes and wires.</p>
+			  <br>
+			  <p>
+			  - Decrease player downtime to improve level pacing. From observing colleagues play testing, I noticed some players wanted to quickly resume the game after dying. As once players fall into lava or acid, it would take a while for their health to completely deplete. Now I recognise this bloats pacing. So, reducing the lava and acid damage timer would be far more engaging experience because there is less down-time. </p>
+			  
+            </div>
+		</div>
+		
+       </div>
+     </div>
+	  
+    </section>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Contact Information</h2>
+      <div class="contact__info">
+        <p>
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:guvvy.atwal@gmail.com" class="btn">guvvy.atwal@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/gurvinder-atwal-a4920a23b/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+      <p>
+        &copy; Website template adapted for Guvvy Atwal by: <a href="https://www.thomasstevens.xyz">Thomas Stevens</a>
+      </p>
+      
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+            slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+    }
+</script>
+
+<script>
+    let slideIndex2 = 1;
+    showSlides2(slideIndex2);
+
+    function plusSlides2(n) {
+        showSlides2(slideIndex2 += n);
+    }
+
+    function currentSlide2(n) {
+        showSlides2(slideIndex2 = n);
+    }
+
+    function showSlides2(n) {
+        let i;
+        let slides = document.getElementsByClassName("Slides2");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex2 = 1}    
+            if (n < 1) {slideIndex2 = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+            slides[slideIndex2-1].style.display = "block";  
+        dots[slideIndex2-1].className += " active";
+    }
+</script>
+</body>
+
+</html>

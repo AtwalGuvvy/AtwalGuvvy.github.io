@@ -271,7 +271,7 @@ body.blurred .footer {
   width: 80%;
   height: auto;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   overflow-x: hidden;
   gap: 20px;
   padding: 10px 10px 30px 10px;

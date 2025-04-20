@@ -148,7 +148,7 @@ body.blurred .footer {
   align-items: left;
   width: 95%;
   text-align: left;
-  z-index: 4;
+  z-index: 2;
 }
 
 .external-link{

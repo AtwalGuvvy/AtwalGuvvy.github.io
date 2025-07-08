@@ -221,7 +221,7 @@ body.blurred .footer {
   font-size: 14px;
   color: #666;
   margin-top: 10px;
-  width: 50%;
+  width: 75%;
 }
 
 .video-thumbnail-link {
@@ -704,4 +704,23 @@ body.blurred .footer {
 
 .pulse {
   animation: pulse 2s infinite ease-in-out;
+}
+
+.close{
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 5;
 }

@@ -10,9 +10,26 @@
   <link rel="stylesheet" href="slideshow.css">
 </head>
 <body>
+  <nav>
+    <h1><a href="#top">GUVVY ATWAL</a></h1>
+    <ul class="nav-links">
+      <li class="glass-back dropdown-appear">
+        <a>Projects</a>
+      </li>
+      <li class="glass-back"><a href="https://www.linkedin.com/in/gurvinder-atwal-a4920a23b/" target="_blank">Blog</a></li>
+      <li class="glass-back"><a href="#about">About</a></li>
+    </ul>
+  </nav>
+  <div class="dropdown glass-back">
+    <a href="#portal2" onclick="scrollToCenter(event, 'portal2')">To Light Bridge & Beyond</a>
+    <a href="#nauticalnonsense" onclick="scrollToCenter(event, 'nauticalnonsense')">Nautical Nonsense</a>
+    <a href="#thefallen" onclick="scrollToCenter(event, 'thefallen')">The Fallen</a>
+    <a href="#gamedesignprojects" onclick="scrollToCenter(event, 'gamedesignprojects')">Game Design Projects</a>
+  </div>
+
   <header class="header">
     <div class="header-content">
-      <h1>Guvvy Atwal</h1>
+      <h1 href="top">Guvvy Atwal</h1>
       <h2>Producer and Level Designer</h2>
       <div class="social-links">
         <a href="https://www.linkedin.com/in/gurvinder-atwal-a4920a23b/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -26,83 +43,6 @@
   <main class="main-content">
     <div class="column">
 
-      <div class="item" id="nauticalnonsense">
-        <div class="item-background">
-          <img src="assets/nauticalnonsense/background.png" alt="Nautical Nonsense">
-        </div>
-          <div class="item-split">
-            <div class="item-preview">
-              <ul class="item-skills">
-                <h2>Nautical Nonsense</h2>
-                <h4>Key Skills:</h4> 
-                <li>Organised sprints and team meetings</li>
-                <li>Shared feedback to teammates, so all work was aligned to the game's vision</li>
-                <li>Documented game mechanics</li>
-                <li>Designed a level</li>
-                <li>Edited the gameplay trailer</li>
-              </ul>
-              <div class="link">
-                <p class="external-link ignore">Learn More</p>
-                <a href="https://t-stevens1299.itch.io/nautical-nonsense" target="_blank" class="external-link">Play Now</a>
-                <a href="https://youtu.be/iU1fHMOy7lc" target="_blank" class="external-link"><i class="fab fa-youtube-play" aria-hidden="true"></i> Watch Trailer</a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="item-description">
-            <div class="close">X</div>
-            <div class="item-split">
-              <div class="item-text">
-                <h1>Nautical Nonsense - Collaborative game for the Global Game Jam 2025</h1>
-                <h2>Winner of 'Best game' and 'Most organised'</h2>
-                <br>
-                <p><strong>Project date:</strong> January 24th - 26th, 2025</p>
-                <br>
-                <p><strong>Made for the 2025 Global Game Jam,</strong> Nautical Nonsense is a whimsical underwater FPS where you use bubbles to eject evil Boctopus (bubble-shooting octopus) from the ocean. This was produced in 48 hours by an 8-person team. I worked as both a Producer and Level Designer.</p>
-                <br>
-                <div class="link">
-                  <a href="https://t-stevens1299.itch.io/nautical-nonsense" target="_blank" class="external-link">Play Game</a>
-                  <a href="https://youtu.be/iU1fHMOy7lc" target="_blank" class="external-link"><i class="fab fa-youtube-play" aria-hidden="true"></i> Watch Trailer</a>
-                </div>
-                <h2>Responsibilities:</h2>
-                <ul>
-                  <li>Applied an agile workflow through sprints to ensure the game could be developed within the tight deadline.</li>
-                  <li>Communicated regularly to monitor the team's output and prioritised wellbeing by planning breaks to keep motivation high.</li>
-                  <li>Documented game mechanics and provided feedback to align everyone's contributions with the game's vision.</li>
-                  <li>Designed a level using an iterative process including: 2D layout, blockout, testing for viability, and set dressing. Also gathered input from other level designers on the team.</li>
-                </ul>
-                <br>
-                <h2>Reflection:</h2>
-                <ul>
-                  <li>Trello wasn't always up to date, and some teammates were unsure what to do next. Going forward, I'll focus on better predicting and planning tasks in advance to streamline development.</li>
-                  <li>We encountered technical issues with importing 3D models and implementing animations. While the team eventually resolved these through knowledge acquisition. I'd now prioritize early risk analysis to identify these types of issues ahead of time and plan learning resources or backup solutions early in the process. </li>
-                </ul>
-                <br><h2>Programs Used:</h2>
-                <div class="item-skills-container">
-                  <img src="assets/logos/trello.png" alt="Trello" class="logo">
-                  <img src="assets/logos/excel.png" alt="Excel" class="logo">
-                  <img src="assets/logos/powerpoint.png" alt="Powerpoint" class="logo">
-                  <img src="assets/logos/orange_triangle.png" alt="What?" class="logo">
-                </div>
-              </div>
-              <div class="item-images">
-                <div class="slideshow" data-images="assets/nauticalnonsense/NN_Prod1.png,assets/nauticalnonsense/NN_Prod2.png,assets/nauticalnonsense/NN_Prod3.jpg,assets/nauticalnonsense/NN_Prod4.png,assets/nauticalnonsense/NN_Prod5.png,assets/nauticalnonsense/NN_Prod6.png, assets/nauticalnonsense/NN_Prod7.jfif">
-                  <img class="slideshow-display"alt="Project slideshow image">
-                  <button class="slideshow-btn prev">&#10094;</button>
-                  <button class="slideshow-btn next">&#10095;</button>
-                </div>
-
-                <div class="slideshow" data-images="assets/nauticalnonsense/NN_Ld1.png,assets/nauticalnonsense/NN_Ld2.jpg,assets/nauticalnonsense/NN_Ld3.png,assets/nauticalnonsense/NN_Ld4.png,assets/nauticalnonsense/NN_Ld5.png">
-                  <img class="slideshow-display"alt="Project slideshow image">
-                  <button class="slideshow-btn prev">&#10094;</button>
-                  <button class="slideshow-btn next">&#10095;</button>
-                </div>
-              </div>
-          </div>
-          
-          </div>
-      </div>
-    
       <div class="item" id="portal2">
         <div class="item-background">
           <img src="assets/portal2/background.png" alt="Portal 2">
@@ -133,9 +73,11 @@
             <div class="item-text">
               <h1>To Light Bridge & Beyond - Portal 2 Custom Level</h1>
               <br>
+              <p><strong>Genre:</strong> Puzzle, Adventure</p>
+              <br>
               <p><strong>Project date:</strong> February 5th - 15th 2025</p>
               <br>
-              <p>Solo project designed as part of my Experimental Level Design Module. The aim of this project was to document & design a level based around Portal 2's Light Bridge Mechanic.</p>
+              <p><strong>Level Editor:</strong> Valve Hammer Editor</p>
               <br>
               <div class="link">
                 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3422730974" target="_blank" class="external-link">Play Now</a>
@@ -165,6 +107,12 @@
                     <img src="assets/logos/powerpoint.png" alt="Powerpoint" class="logo">
                     <img src="assets/logos/dungeon_scrawl.png" alt="dungeon_scrawl" class="logo">
                   </div>
+                  <ul>
+                    <li>Hammer Editor</li>
+                    <li>Microsoft Forms</li>
+                    <li>PowerPoint</li>
+                    <li>Dungeon Scrawler</li>
+                  </ul>
             </div>
             <div class="item-images">
               <div class="slideshow" data-images="assets/portal2/portal_gif.gif, assets/portal2/LDD1.png,assets/portal2/LDD2.png,assets/portal2/LDD3.png,assets/portal2/LDD4.png,assets/portal2/LDD5.png">
@@ -178,7 +126,260 @@
         </div>
        
       </div>
-      
+
+      <div class="item" id="nauticalnonsense">
+        <div class="item-background">
+          <img src="assets/nauticalnonsense/background.png" alt="Nautical Nonsense">
+        </div>
+          <div class="item-split">
+            <div class="item-preview">
+              <ul class="item-skills">
+                <h2>Nautical Nonsense</h2>
+                <h4>Key Skills:</h4> 
+                <li>Organised sprints and team meetings</li>
+                <li>Shared feedback to teammates, so all work was aligned to the game's vision</li>
+                <li>Documented game mechanics</li>
+                <li>Designed a level</li>
+                <li>Edited the gameplay trailer</li>
+              </ul>
+              <div class="link">
+                <p class="external-link ignore">Learn More</p>
+                <a href="https://t-stevens1299.itch.io/nautical-nonsense" target="_blank" class="external-link">Play Now</a>
+                <a href="https://youtu.be/iU1fHMOy7lc" target="_blank" class="external-link"><i class="fab fa-youtube-play" aria-hidden="true"></i> Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item-description">
+            <div class="close">X</div>
+            <div class="item-split">
+              <div class="item-text">
+                <h1>Nautical Nonsense - Collaborative game for the Global Game Jam 2025</h1>
+                <h2>Winner of 'Best game' and 'Most organised'</h2>
+                <br>
+                <p><strong>Genre:</strong> Underwater, FPS</p>
+                <br>
+                <p><strong>Project date:</strong> January 24th - 26th, 2025</p>
+                <br>
+                <p><strong>Game Engine:</strong> Unreal Engine 5</p>
+                <br>
+                <div class="link">
+                  <a href="https://t-stevens1299.itch.io/nautical-nonsense" target="_blank" class="external-link">Play Game</a>
+                  <a href="https://youtu.be/iU1fHMOy7lc" target="_blank" class="external-link"><i class="fab fa-youtube-play" aria-hidden="true"></i> Watch Trailer</a>
+                </div>
+                <h2>Responsibilities:</h2>
+                <ul>
+                  <li>Applied an agile workflow through sprints to ensure the game could be developed within the tight deadline.</li>
+                  <li>Communicated regularly to monitor the team's output and prioritised wellbeing by planning breaks to keep motivation high.</li>
+                  <li>Documented game mechanics and provided feedback to align everyone's contributions with the game's vision.</li>
+                  <li>Designed a level using an iterative process including: 2D layout, blockout, testing for viability, and set dressing. Also gathered input from other level designers on the team.</li>
+                </ul>
+                <br>
+                <h2>Reflection:</h2>
+                <ul>
+                  <li>Trello wasn't always up to date, and some teammates were unsure what to do next. Going forward, I'll focus on better predicting and planning tasks in advance to streamline development.</li>
+                  <li>We encountered technical issues with importing 3D models and implementing animations. While the team eventually resolved these through knowledge acquisition. I'd now prioritize early risk analysis to identify these types of issues ahead of time and plan learning resources or backup solutions early in the process. </li>
+                </ul>
+                <br><h2>Programs Used:</h2>
+                <div class="item-skills-container">
+                  <img src="assets/logos/unreal.png" alt="Unreal Engine 5" class="logo">
+                  <img src="assets/logos/trello.png" alt="Trello" class="logo">
+                  <img src="assets/logos/excel.png" alt="Excel" class="logo">
+                  <img src="assets/logos/powerpoint.png" alt="Powerpoint" class="logo">
+                  <img src="assets/logos/orange_triangle.png" alt="What?" class="logo">
+                </div>
+                <ul>
+                  <li>Unreal Engine 5</li>
+                  <li>Trello</li>
+                  <li>Excel</li>
+                  <li>PowerPoint</li>
+                  <li>Hitfilm Express</li>
+                </ul>
+              </div>
+              <div class="item-images">
+
+                <div class="slideshow" data-images="assets/nauticalnonsense/NN_Ld1.png,assets/nauticalnonsense/NN_Ld2.jpg,assets/nauticalnonsense/NN_Ld3.png,assets/nauticalnonsense/NN_Ld4.png,assets/nauticalnonsense/NN_Ld5.png">
+                  <img class="slideshow-display"alt="Project slideshow image">
+                  <button class="slideshow-btn prev">&#10094;</button>
+                  <button class="slideshow-btn next">&#10095;</button>
+                </div>
+            
+                <div class="slideshow" data-images="assets/nauticalnonsense/NN_Prod1.png,assets/nauticalnonsense/NN_Prod2.png,assets/nauticalnonsense/NN_Prod3.jpg,assets/nauticalnonsense/NN_Prod4.png,assets/nauticalnonsense/NN_Prod5.png,assets/nauticalnonsense/NN_Prod6.png, assets/nauticalnonsense/NN_Prod7.jfif">
+                  <img class="slideshow-display"alt="Project slideshow image">
+                  <button class="slideshow-btn prev">&#10094;</button>
+                  <button class="slideshow-btn next">&#10095;</button>
+                </div>
+              </div>
+          </div>
+          
+          </div>
+      </div>
+
+      <div class="item" id="thefallen">
+        <div class="item-background">
+          <img src="assets/UEFN/front.jpg" alt="The Fallen">
+        </div>
+          <div class="item-split">
+            <div class="item-preview">
+              <ul class="item-skills">
+                <h2>The Fallen</h2>
+                <h4>Key Skills:</h4> 
+                <li>Organised sprints and team meetings</li>
+                <li>Shared feedback to teammates, so all work was aligned to the game's vision</li>
+                <li>Documented game mechanics</li>
+                <li>Designed a level</li>
+                <li>Edited the gameplay trailer</li>
+              </ul>
+              <div class="link">
+                <p class="external-link ignore">Learn More</p>
+                <a href="https://t-stevens1299.itch.io/nautical-nonsense" target="_blank" class="external-link">Play Now</a>
+                <a href="https://youtu.be/iU1fHMOy7lc" target="_blank" class="external-link"><i class="fab fa-youtube-play" aria-hidden="true"></i> Watch Trailer</a>
+              </div>
+            </div>
+          </div>
+
+            <div class="item-description">
+            <div class="close">X</div>
+            <div class="item-split">
+              <div class="item-text">
+                <h1>The Fallen - Custom UEFN Level</h1>
+                <br>
+                <p><strong>Genre:</strong> Survival Horror</p>
+                <br>
+                <p><strong>Project date:</strong> January 7th - 28th, 2025</p>
+                <br>
+                <p><strong>Game Engine:</strong> Unreal Editor for Fortnite</p>
+                <br>
+                <div class="link">
+                  <a href="./assets/documents/UEFN Level Ideation report.pdf" target="_blank" class="external-link">Read Ideation Document</a>
+                  <a href="https://youtu.be/TosIkXJ3-cE?si=NxXpmdcxnxzrbhVp" target="_blank" class="external-link"><i class="fab fa-youtube-play" aria-hidden="true"></i> Watch Trailer</a>
+                </div>
+                <h2>Responsibilities:</h2>
+                <ul>
+                  <li>Designed a level around fixed-camera survival action gameplay. Corridors funnel the player and heighten tension when encountering enemies.</li>
+                  <li>Through a parallel level layout provides players with multiple paths. Encouraging exploration in a linear structure.</li>
+                  <li>Enemy & item placements follow a rule of 3 pacing to ease players into the experience and keep gameplay mechanics feeling fresh.</li>
+                  <li>Weapon damage and enemy speed values have been adjusted through playtesting to be befitting of a survival horror experience.</li>
+                </ul>
+                <br>
+                <h2>Reflection:</h2>
+                <ul>
+                  <li>This level features over 20+ camera angles. To ensure there was a smooth transition between camera, each one required precise placement and testing. Unfortunately, due to a limitation of the fixed-camera angle system, sometimes when the player backtracks the character is fixed to looking only 1 direction. So, there is one corridor, where the player is unable to turn around. Therefore, in future work, if a system is not adhering to the gameplay conventions, one should try to change the layout to accommodate it if it’s an outlier. But if it is repeatedly causing trouble, then informing a programmer about the issue is best practice.</li>
+                  <li>· Fixed-camera angles were prominently featured in PS1 games because 3D was still quite new. This constraint was part of the level design that permeated many games. Retroactively designing a level that uses this limitation as part of the level design is quite a unique challenge. By using a multitude of angles, helped make this feature turn into a selling point of the experience. What is old, can sometimes be new. In future work, during ideation phase looking back to the past to create something new is something that can be beneficial to craft a unique experience.</li>
+                </ul>
+                <br><h2>Programs Used:</h2>
+                <div class="item-skills-container">
+                  <img src="assets/UEFN/progs/Dungeon scrawl.png" alt="Dungeon Scrawl" class="logo">
+                  <img src="assets/UEFN/progs/Miro board.png" alt="Miro Board" class="logo">
+                  <img src="assets/UEFN/progs/PowerPoint Logo.png" alt="Powerpoint" class="logo">
+                  <img src="assets/UEFN/progs/UEFN logo.png" alt="UEFN" class="logo">
+                </div>
+                <ul>
+                  <li>Unreal Editor for Fortnite (UEFN)</li>
+                  <li>Miro Board</li>
+                  <li>Dungeon Scrawler</li>
+                  <li>PowerPoint</li>
+   
+                </ul>
+              </div>
+              <div class="item-images">
+                <div class="slideshow" data-images="assets/UEFN/1_UEFN.gif,assets/UEFN/2_UEFN.png,assets/UEFN/3_UEFN.jpg,assets/UEFN/4_UEFN.png,assets/UEFN/5_UEFN.png,assets/UEFN/6_UEFN.png">
+                  <img class="slideshow-display"alt="Project slideshow image">
+                  <button class="slideshow-btn prev">&#10094;</button>
+                  <button class="slideshow-btn next">&#10095;</button>
+                </div>
+              </div>
+          </div>
+          
+          </div>
+      </div>
+
+      <hr>
+
+      <h2 id="gamedesignprojects">Game Design Projects</h2>
+          
+      <div class="item" id="reconnect">
+        <div class="item-background">
+          <img src="assets/reconnect/background.png" alt="Reconnect">
+        </div>
+        <div class="item-split">
+          <div class="item-preview">
+            <ul class="item-skills">
+              <h2>Reconnect</h2>
+              <h4>Key Skills:</h4>
+              <li>Designed a cinematic game, featuring cutscenes and gameplay</li>
+              <li>Research into cinematography and practical design.</li>
+              <li>Recorded Mocap animations and cleaned up in Motion Builder</li>
+              <li>Extensive usage of Level Sequencer and UI Blueprint scripting.</li>
+            </ul>
+            <div class="link">
+                <p class="external-link ignore">Learn More</p>
+                <a href="https://youtu.be/9qJLT-3tVnY?si=6mT2vaixER-_aOAi " target="_blank" class="external-link">Watch Trailer</a>
+                <a href="assets/documents/Guvvy's Artefact Development Report.pdf" target="_blank" class="external-link">Read Development Report</a>
+            </div>
+          </div>
+        </div>
+        <div class="item-description">
+          <div class="close">X</div>
+          <div class="item-split">
+            <div class="item-text">
+              <h1>Reconnect - Final Year Project</h1>
+              <br>
+              <p><strong>Role:</strong> Cinematographer, Editor, Level Designer</p>
+              <br>
+              <p><strong>Genre:</strong> Cinematic, adventure</p>
+              <br>
+              <p><strong>Project date:</strong> October 2024 - February 2025</p>
+              <br>
+              <p><strong>Game Engine:</strong> Unreal Engine 5</p>
+              <div class="link">
+                <a href="https://youtu.be/9qJLT-3tVnY?si=6mT2vaixER-_aOAi " target="_blank" class="external-link">Watch Trailer</a>
+                <a href="assets/documents/Guvvy's Artefact Development Report.pdf" target="_blank" class="external-link">Read Development Report</a>
+            </div>
+            <br>
+              <h2>Responsibilities:</h2>
+              <ul>
+                <li>Learnt from scratch how to record Mocap animations and clean-up the data in Motion Builder</li>
+                <li>Responded to weekly feedback from my academic mentor. This included ensuring cutscenes/gameplay were aligned with research findings. Plus, following best camera technique practices.</li>
+                <li>Able to apply editing techniques by leveraging Blueprint events in Level Sequencer to communicate with non-diegetic UI Blueprints.</li>
+                <li>After writing an artefact development report, there is strong evidence to suggest that game design & cinematography techniques are closely aligned with each other and can be used in combination to create a harmonious experience.</li>
+              </ul>
+              
+              <br>
+              <h2>Reflection:</h2>
+              <ul>
+                <li>While the Mocap animations contained the life a of a real performance, some animations had a few frames where the limbs were misaligned. Therefore, I decided to use this problem as a constraint. For example, during the final cutscene, the camera cuts to another scene of a tree when the animation of the character is jittery. The new scene fits thematically and has helped shape the direction of the experience. Thus, highlighting how through either cinematography or game design, constraints can be applied to inform the project's development. Moving forward, I should be more confident in applying constraints to benefit the project's direction.</li>
+                <li>When cleaning up mocap, every frame has translation and rotation values for X, Y & Z. Whilst keyframing this is a lot of information to memorise. Therefore, noting down references of frame values means less cognitive load on working memory. Supported by Donald Norman's findings on 'Knowledge in the Head' in The Design of Everyday Things: 'Knowledge in the world, external knowledge is a valuable tool for remembering.' In the future, writing down key information, or break down how a system works can help when problem solving or completing complex tasks.</li>
+              </ul>
+              <br><h2>Programs Used:</h2>
+                  <div class="item-skills-container">
+                    <img src="assets/logos/trello.png" alt="Trello" class="logo">
+                    <img src="assets/logos/shogun.jpg" alt="Shogun" class="logo">
+                    <img src="assets/logos/mobu.jpg" alt="Mobu" class="logo">
+                    <img src="assets/logos/yellow.png" alt="What??" class="logo">
+                    <img src="assets/logos/excel.png" alt="Excel" class="logo">
+                    <img src="assets/logos/orange_triangle.png" alt="What?" class="logo">
+                  </div>
+                  <ul>
+                    <li>Unreal Engine 5</li>
+                    <li>Trello</li>
+                    <li>Vicon Shogun</li>
+                    <li>Motion Builder</li>
+                    <li>Miro</li>
+                    <li>Excel</li>
+                    <li>HitFilm Express</li>
+            </div>
+            <div class="item-images">
+              <div class="slideshow" data-images="assets/reconnect/cgigif.gif, assets/reconnect/FYP1.png,assets/reconnect/FYP2.png,assets/reconnect/FYP3.png,assets/reconnect/FYP4.png,assets/reconnect/FYP5.png,assets/reconnect/FYP6.png, assets/reconnect/FYP7.png,assets/reconnect/FYP8.png,assets/reconnect/FYP9.png">
+                <img class="slideshow-display"alt="Project slideshow image">
+                <button class="slideshow-btn prev">&#10094;</button>
+                <button class="slideshow-btn next">&#10095;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="item" id="rodandripple">
         <div class="item-background">
           <img src="assets/rodandripple/background.png" alt="Rod & Ripple">
@@ -208,9 +409,13 @@
               <div class="item-text">
                 <h1>Rod & Ripple - Collaborative academic game</h1>
                 <br>
+                <p><strong>Role:</strong> Lead Producer and Game Designer</p>
+                <br>
+                <p><strong>Genre:</strong> Cosy, Fishing, Adventure</p>
+                <br>
                 <p><strong>Project date:</strong> March - May 2025</p>
                 <br>
-                <p><strong>Rod & Ripple </strong> is a cosy, fishing adventure made in collaboration with 28 other students in 8-weeks. Within the team my role was Lead Producer and Game Designer.</p>
+                <p><strong>Game Engine:</strong> Unity</p>
                 <br>
                 <div class="link">
                   <a href="https://oculometric.itch.io/rod-and-ripple" target="_blank" class="external-link">Play Now</a>
@@ -237,6 +442,12 @@
                   <img src="assets/logos/powerpoint.png" alt="Powerpoint" class="logo">
                   <img src="assets/logos/orange_triangle.png" alt="What?" class="logo">
                 </div>
+                <ul>
+                  <li>Unity</li>
+                  <li>Microsoft Planner</li>
+                  <li>Excel</li>
+                  <li>PowerPoint</li>
+                  <li>HitFilm Express</li>
               </div>
               <div class="item-images">
                 <div class="slideshow" data-images="assets/rodandripple/DQA1.png,assets/rodandripple/DQA2.png,assets/rodandripple/DQA3.png,assets/rodandripple/DQA4.png,assets/rodandripple/DQA5.png">
@@ -254,76 +465,6 @@
           </div>
           
           </div>
-      </div>
-
-      <div class="item" id="reconnect">
-        <div class="item-background">
-          <img src="assets/reconnect/background.png" alt="Reconnect">
-        </div>
-        <div class="item-split">
-          <div class="item-preview">
-            <ul class="item-skills">
-              <h2>Reconnect</h2>
-              <h4>Key Skills:</h4>
-              <li>Designed a cinematic game, featuring cutscenes and gameplay</li>
-              <li>Research into cinematography and practical design.</li>
-              <li>Recorded Mocap animations and cleaned up in Motion Builder</li>
-              <li>Extensive usage of Level Sequencer and UI Blueprint scripting.</li>
-            </ul>
-            <div class="link">
-                <p class="external-link ignore">Learn More</p>
-                <a href="https://youtu.be/9qJLT-3tVnY?si=6mT2vaixER-_aOAi " target="_blank" class="external-link">Watch Trailer</a>
-                <a href="assets/documents/Guvvy's Artefact Development Report.pdf" target="_blank" class="external-link">Read Development Report</a>
-            </div>
-          </div>
-        </div>
-        <div class="item-description">
-<div class="close">X</div>
-          <div class="item-split">
-            <div class="item-text">
-              <h1>Reconnect - Final Year Project</h1>
-              <br>
-              <p><strong>Project date:</strong> October 2024 - February 2025</p>
-              <br>
-              <p>For my final year project at university, I produced a cinematic game. The aim of this project was to examine the symbiotic relationship between cinematography & game design.<br>
-              <div class="link">
-                <a href="https://youtu.be/9qJLT-3tVnY?si=6mT2vaixER-_aOAi " target="_blank" class="external-link">Watch Trailer</a>
-                <a href="assets/documents/Guvvy's Artefact Development Report.pdf" target="_blank" class="external-link">Read Development Report</a>
-            </div>
-            <br>
-              <h2>Responsibilities:</h2>
-              <ul>
-                <li>Learnt from scratch how to record Mocap animations and clean-up the data in Motion Builder</li>
-                <li>Responded to weekly feedback from my academic mentor. This included ensuring cutscenes/gameplay were aligned with research findings. Plus, following best camera technique practices.</li>
-                <li>Able to apply editing techniques by leveraging Blueprint events in Level Sequencer to communicate with non-diegetic UI Blueprints.</li>
-                <li>After writing an artefact development report, there is strong evidence to suggest that game design & cinematography techniques are closely aligned with each other and can be used in combination to create a harmonious experience.</li>
-              </ul>
-              
-              <br>
-              <h2>Reflection:</h2>
-              <ul>
-                <li>While the Mocap animations contained the life a of a real performance, some animations had a few frames where the limbs were misaligned. Therefore, I decided to use this problem as a constraint. For example, during the final cutscene, the camera cuts to another scene of a tree when the animation of the character is jittery. The new scene fits thematically and has helped shape the direction of the experience. Thus, highlighting how through either cinematography or game design, constraints can be applied to inform the project's development. Moving forward, I should be more confident in applying constraints to benefit the project's direction.</li>
-                <li>When cleaning up mocap, every frame has translation and rotation values for X, Y & Z. Whilst keyframing this is a lot of information to memorise. Therefore, noting down references of frame values means less cognitive load on working memory. Supported by Donald Norman's findings on 'Knowledge in the Head' in The Design of Everyday Things: 'Knowledge in the world, external knowledge is a valuable tool for remembering.' In the future, writing down key information, or break down how a system works can help when problem solving or completing complex tasks.</li>
-              </ul>
-              <br><h2>Programs Used:</h2>
-                  <div class="item-skills-container">
-                    <img src="assets/logos/trello.png" alt="Trello" class="logo">
-                    <img src="assets/logos/shogun.jpg" alt="Shogun" class="logo">
-                    <img src="assets/logos/mobu.jpg" alt="Mobu" class="logo">
-                    <img src="assets/logos/yellow.png" alt="What??" class="logo">
-                    <img src="assets/logos/excel.png" alt="Excel" class="logo">
-                    <img src="assets/logos/orange_triangle.png" alt="What?" class="logo">
-                  </div>
-            </div>
-            <div class="item-images">
-              <div class="slideshow" data-images="assets/reconnect/cgigif.gif, assets/reconnect/FYP1.png,assets/reconnect/FYP2.png,assets/reconnect/FYP3.png,assets/reconnect/FYP4.png,assets/reconnect/FYP5.png,assets/reconnect/FYP6.png, assets/reconnect/FYP7.png,assets/reconnect/FYP8.png,assets/reconnect/FYP9.png">
-                <img class="slideshow-display"alt="Project slideshow image">
-                <button class="slideshow-btn prev">&#10094;</button>
-                <button class="slideshow-btn next">&#10095;</button>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
       <div class="item" id="incognito">
@@ -353,9 +494,12 @@
             <div class="item-text">
               <h1>Incognito - Collaborative Academic Game</h1>
               <br>
+              <p><strong>Genre:</strong> Stealth, Roguelite</p>
+              <br>
               <p><strong>Project date:</strong> January 2023 - February 2023</p>
               <br>
-              <p>Incognito is a first person, stealth roguelike, made in collaboration with 21 other game students in 6 weeks. Within the team my role was as a junior designer.</p><br>
+              <p><strong>Game Engine:</strong> Unreal Engine 5</p>
+              <br>
               <div class="link">
                 <a href="https://youtu.be/9ibWrHwfzL4" target="_blank" class="external-link">Watch Trailer</a>
               </div>
@@ -379,6 +523,12 @@
                   <img src="assets/logos/photosho.png" alt="PhotoShop" class="logo">
                   <img src="assets/logos/orange_triangle.png" alt="What?" class="logo">
                 </div>
+                <ul>
+                  <li>Unreal Engine 5</li>
+                  <li>Jira</li>
+                  <li>Photoshop</li>
+                  <li>HitFilm Express</li>
+                </ul>
             </div>
             <div class="item-images">
               <div class="slideshow" data-images="assets/incognito/INC_DES_1.png,assets/incognito/INC_DES_2.png,assets/incognito/INC_DES_3.png,assets/incognito/INC_DES_4.png,assets/incognito/INC_DES_5.png, assets/incognito/INC_DES_6.png,assets/incognito/INC_DES_7.png">
@@ -422,14 +572,17 @@
         </div>
       
         <div class="item-description">
-<div class="close">X</div>
+          <div class="close">X</div>
           <div class="item-split">
             <div class="item-text">
               <h1>Tower - Solo Academic Game Project</h1>
               <br>
+              <p><strong>Genre:</strong> Top-Down Shooter</p>
+              <br>
               <p><strong>Project date:</strong> October 2022 - December 2022</p>
               <br>
-              <p>Tower is a top-down shooter, I designed in a 2nd year module- 3d Games Design and Development. The project aim was to simulate game design industry practices. By producing an iterative game design document to design a top-down game that uses Teef. - A university provided Unreal Engine 5 framework. </p><br>
+              <p><strong>Game Engine:</strong> Unreal Engine 5</p>
+              <br>
               <div class="link">
                 <a href="https://www.youtube.com/watch?v=nmbj1TRRPHo" target="_blank" class="external-link">Watch Trailer</a>
                 <a href="https://youtu.be/eUMaacoRIBI?si=fPy3kpJvxMoY0iDg" target="_blank" class="external-link">Post-Mortem Gameplay Breakdown</a>
@@ -457,6 +610,12 @@
                 <img src="assets/logos/orange_triangle.png" alt="What?" class="logo">
                 <img src="assets/logos/unreal.png" alt="Unreal" class="logo">
               </div>
+              <ul>
+                <li>Unreal Engine 5</li>
+                <li>PowerPoint</li>
+                <li>Excel</li>
+                <li>HitFilm Express</li>
+              </ul>
             </div>
             <div class="item-images">
               <div class="slideshow" data-images="assets/tower/TWR_sl1.png,assets/tower/TWR_sl2.png,assets/tower/TWR_sl3.png,assets/tower/TWR_sl4.png,assets/tower/TWR_sl5.png,assets/tower/TWR_sl6.png">
@@ -477,21 +636,48 @@
     <div class="container">
         <div class="item-split justify-center">
 
-        <img id="pfp" src="./assets/guvvy.png" alt="Guvvy Atwal" class="about-image">
+        <div id="pfp-container">
+          <img id="pfp" src="./assets/guvvy.png" alt="Guvvy Atwal" class="about-image">
+          <div class="social-links" style="justify-content: center; display: flex;">
+            <a href="https://www.linkedin.com/in/gurvinder-atwal-a4920a23b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:guvvy.atwal@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+          </div>
+        </div>
           <p>Hi, I am a Computer Gameplay Design and Production graduate. I thrive from the creative and collaborative challenges, designing games can pose. In addition to being a 2nd Dan Blackbelt in Shotokan Karate, I love training and continue to hone my technique and discipline to further heights. In my free time, I enjoy learning Japanese and skateboarding.</p>
 
           </div>
     </div>
 
-     <a href="assets/documents/resume.pdf" target="_blank" class="external-link">My Resume</a>
+    <div class="external-link-container" style="width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+  align-items: center;">
+        <a href="assets/documents/resume.pdf" target="_blank" class="external-link" style="height: 50px">My Resume</a>
+        <a href="https://www.youtube.com/@guvvster3871" style="background-color: transparent;" target="_blank" class="external-link"><img style="height: 50px" src="assets/logos/youtube.png" alt="YouTube"></a>
+    </div>
+    
     
   </section>
 
-  <script src="script.js"></script>
-  <script src="slideshow.js"></script>
 
   <footer class="footer">
-    <p>website by <a href="https://www.gazellewebstudios.co.uk">gazelle web studios</a> &copy 2025</p>
+    <p>Website by <a href="https://www.danielhartgrove.xyz">Daniel Hartgrove</a> &copy 2026</p>
   </footer>
+
+  <div id="slideshow-lightbox" class="lightbox hidden">
+    <div class="lightbox-inner">
+      <img class="lightbox-display" alt="Expanded slideshow image">
+
+      <button class="slideshow-btn prev">&#10094;</button>
+      <button class="slideshow-btn next">&#10095;</button>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  
+  <script src="script.js"></script>
+  <script src="slideshow.js"></script>
 </body>
 </html>

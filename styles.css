@@ -326,6 +326,10 @@ body.blurred .footer {
   top: 8%;
 }
 
+.item-skills p{
+  max-width: 60%;
+}
+
 .item.expanded .item-description {
   display: flex;
   flex-direction: column;
